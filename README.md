@@ -56,3 +56,14 @@ Example Response:
     "Pre-kvk points": "35,000"
 }
 ```
+
+### 2. Deployment
+
+```bash
+
+docker build -t rok-kdp-api:1.0 .
+docker run -p 5000:5000 -d rok-kdp-api:1.0
+
+```
+
+Test if your API is working on http://localhost:5000
