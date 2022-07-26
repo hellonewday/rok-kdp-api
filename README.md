@@ -2,7 +2,15 @@
 
 This project is made by LK Maximusss, Y719 Officer, Kingdom 2719. 
 
-### 1. Quickstart 
+Players will send their images including profile, info, pre-kvk result to identify initial data before starting KVK.
+
+### 1. Live demo
+
+Web Version: Working in progress
+
+API Version, uploaded on Google Cloud Run: https://rok-kdp-api-m3gpgoqcgq-as.a.run.app
+
+### 2. Quickstart 
 
 ```bash
 git clone https://github.com/hellonewday/rok-kdp-api
@@ -57,7 +65,7 @@ Example Response:
 }
 ```
 
-### 2. Deployment
+### 3. Deployment
 
 ```bash
 
@@ -69,9 +77,13 @@ docker run -p 5000:5000 -d rok-kdp-api:1.0
 Test if your API is working on http://localhost:5000
 
 
-### 3. Live demo
+### 4. Future Plan & Contact
 
-Web Version: Working in progress
+This is just the beginning, I am planning to make more features, including daily kill point tracking for top 100/300/500/..., leaderboard daily tracking (top power changes, resouces farming changes, flags per day,...). Any questions, p.m me:
 
-API Version, uploaded on Google Cloud Run: https://rok-kdp-api-m3gpgoqcgq-as.a.run.app
+- LK Maximusss, 2719
+
+- Lx Cafe, 1296
+
+- BA 5, 1930
 
