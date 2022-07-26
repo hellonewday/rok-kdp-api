@@ -1,6 +1,6 @@
 ## Rise of Kingdoms KVK Preparation Player Extracting API
 
-
+This project is made by LK Maximusss, Y719 Officer, Kingdom 2719. 
 
 ### 1. Quickstart 
 
@@ -67,3 +67,11 @@ docker run -p 5000:5000 -d rok-kdp-api:1.0
 ```
 
 Test if your API is working on http://localhost:5000
+
+
+### 3. Live demo
+
+Web Version: Working in progress
+
+API Version, uploaded on Google Cloud Run: https://rok-kdp-api-m3gpgoqcgq-as.a.run.app
+
