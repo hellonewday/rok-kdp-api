@@ -10,6 +10,9 @@ cors = CORS(app)
 
 reader = easyocr.Reader(['vi', 'en'])
 
+"""
+        Parameters to get region in the screen.
+ """
 # ID
 ID_X = 415
 ID_Y = 60
@@ -38,6 +41,7 @@ PRE_Y = 250
 PRE_W = 250
 PRE_H = 100
 
+## Resize width & height.
 shrink_width = 850
 shrink_height = 350
 
@@ -149,4 +153,8 @@ def upload():
         }
         return jsonify(jsonResult)
     else:
-        return "Get something here"
+        return jsonify({"message": "Wrong method"})
+
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0")
